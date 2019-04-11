@@ -22,7 +22,10 @@ footer{
   padding-bottom: 5px;
 }
 
-#navbar, footer, #contact-form, #about-me{
+#navbar, 
+#footer, 
+#contact-form, 
+#about-me{
   width: 960px;
   margin-left: 420px
 }
@@ -32,6 +35,8 @@ footer{
   margin-left: 425px
 }
 
-#port-block{
-  background-color: blue
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
