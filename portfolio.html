@@ -1,111 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./assets/css/style.css">
-
+    <meta charset="UTF-8">
+    <title>About | Craig Zimbler</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-inverse" id="navbar">
+  <nav class="navbar navbar-default container" id="masthead">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Craig Zimbler</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html"><span></span> Index</a></li>
-        <li><a href="contact.html"><span></span> Contact</a></li>
-        <li><a href="portfolio.html"><span></span> Portfolio</a></li>
-      </ul>
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1"></div>
+        <div class="navbar-header">
+            <a class="col-lg-2 col-md-2 col-sm-2 col-xs-12 navbar-brand" id="logo" href="./index.html">Craig Zimbler</a>
+        </div>
+            <div class="col-lg-4 col-md-2 col-sm-2"></div>
+            <div class="col-lg-3 col-md-5 col-sm-5">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="col-xs-4 nav-links">About</a></li>
+            <li><a href="portfolio.html" class="col-xs-4 nav-links">Portfolio</a></li>
+            <li><a href="contact.html" class="col-xs-4 nav-links">Contact</a></li>
+        </ul>
+            </div>
+            <div class="col-lg-2 col-md-1 col-sm-2"></div>
+        </div>
     </div>
-  </nav>
-
-  <div class="container" id="portfolio">
-    <div class="row">
-      <div class="col-md-10">
-        <article class="block">
-          <h1>Portfolio</h1>
-          <hr style="width: 900px" />
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img" src="./assets/images/crystal.png">
-              <div class="card">
-                <div class="card-body"style="text-align: center; width: 275px">
-                  <h2>Crystal Collector</h2>
+</nav>
+<div class="container body-container">
+        <div class="row">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 main-section">
+                <h1>Portfolio</h1>
+                <div class="row">
                 </div>
-              </div>
-             
-            </div>
-            <br />
-            <br />
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img" src="./assets/images/friends.jpg ">
-              <div class="card">
-                <div class="card-body"style="text-align: center; width: 275px">
-                  <h2>Friend Finder</h2>
-                </div>
-              </div>
-              
-            </div>
-            <br />
-            <br />
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img" src="./assets/images/hamburger.jpg">
-              <div class="card">
-                <div class="card-body"style="text-align: center; width: 275px">
-                  <h2>Burger Builder</h2>
-                </div>
-              </div>
-              
-            </div>
-            <br />
-            <br />
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img" src="./assets/images/rps.jpg">
-              <div class="card">
-                <div class="card-body"style="text-align: center; width: 275px">
-                  <h2>Rock, Paper, Scissors</h2>
-                </div>
-              </div> 
-              
-            </div>
-            <br />
-            <br />
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img" src="./assets/images/train.jpg">
-              <div class="card">
-                <div class="card-body"style="text-align: center; width: 275px">
-                  <h2>Train Scheduler</h2>
-                </div>
-              </div>
-              
-            </div>
-            <br />
-            <br />
-            
-                      </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 port"><a href="https://github.com/craigz123/Train-Scheduler"><img src="./assets/images/train.jpg" alt="Train Scheduler" class="img-rounded work"></a>
+                        <h3>Train Scheduler</h3>
                     </div>
-        </article>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="card" id="footer">
-    <div class="card-body">
-      <footer>
-        Footer Text
-      </footer>
-    </div>
-  </div>
-
+                    <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 port"><a href="https://github.com/craigz123/Crystal-Collector"><img src="./assets/images/crystal.png" alt="Crystal Collector" class="img-rounded work"></a>
+                        <h3>Crystal Collector</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 port"><a href="https://github.com/craigz123/burger"><img src="./assets/images/hamburger.jpg" alt="Burger" class="img-rounded work"></a>
+                        <h3>Burger Builder</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 port"><a href="https://github.com/craigz123/Great-Bay"><img src="./assets/images/auction.jpg" alt="Great Bay" class="img-rounded work"></a>
+                        <h3>Great Bay</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 sidebar">
+                <div class="row">
+                  <h2>Connect with Me</h2>
+                  <a href="https://github.com/craigz123"><img src="assets/images/github_image2.png" class="social" alt="GitHub" /></a>
+                  <a href="https://www.linkedin.com/in/craig-zimbler-669199133/"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+                    </div>
+                <div class="row">
+                </div>
+            </div>
+        </div>
+        <footer class="row footer">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Copyright 2019 | Craig Zimbler
+          </div>
+        </footer>
+        </div>
 </body>
 
 </html>
