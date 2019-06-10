@@ -8,7 +8,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: gray;
 }
 
 .container-fluid {
@@ -31,7 +31,7 @@ a {
 
 .body-container {
   margin-top: -20px;
-  background: url("../images/concrete_seamless.png");
+  background: gray;
 }
 
 .main-section,
@@ -165,4 +165,17 @@ h3 {
   text-align: center;
   background-color: #666;
   border-top: 8px solid #4aaaa5;
+}
+
+#top-card {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+  background-color: chartreuse;
+}
+
+#masthead {
+  background: chartreuse;
 }
